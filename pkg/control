@@ -1,0 +1,21 @@
+Source: nio
+Priority: optional
+Maintainer: Nobutaka Ito <noitojp@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Section: libs
+Homepage: no url
+
+Package: nio-dev
+Section: libdevel
+Architecture: any
+Depends: nio (= ${binary:Version})
+Description: noito's socket io library for develop.
+ noito's socket io library for develop.
+
+Package: nio
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: noito's socket io library.
+ noito's socket io library.

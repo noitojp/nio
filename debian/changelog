@@ -1,3 +1,9 @@
+nio (0.0.3) unstable; urgency=low
+
+  * delete warning when connect error.
+
+ -- Nobutaka Ito <noitojp@gmail.com>  Wed, 05 Sep 2012 14:51:57 +0900
+
 nio (0.0.2) unstable; urgency=low
 
   * change dir.

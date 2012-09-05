@@ -116,7 +116,6 @@ int connect2(const char *host,int port,int af)
 		set_sndbuf(sock,65535);
 		set_rcvbuf(sock,65535);
 		if( connect(sock,res_ptr->ai_addr,res_ptr->ai_addrlen) < 0 ){
-			fprintf(stderr,"WARN: connect: %s\n",strerror(errno));
 			close(sock); sock = -1;
 			continue;
 		}
